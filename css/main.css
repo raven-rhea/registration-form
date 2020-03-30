@@ -5,10 +5,11 @@ html {
 .btn {
   padding: .5rem;
   background-color: #000;
+  text-align: center;
 }
 
 .btn:hover {
-  background-color: #f2f2f2;
+  background-color: #fff;
   color: #000;
 }
 
@@ -18,8 +19,14 @@ h1 {
 
 @media only screen and (min-width: 60em) {
 
-html {
-  background-color: #f2f2f2;
-}
+  html {
+    background-color: #f2f2f2;
+  }
+
+  section {
+    background-color: #fff;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
 
 }
